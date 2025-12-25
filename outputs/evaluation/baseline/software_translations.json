@@ -1,0 +1,422 @@
+[
+  {
+    "source": "256GB built-inUFS 3.1 + LPDDR5\"",
+    "reference": "256 GB ingebouwdUFS 3.1 + LPDDR5",
+    "hypothesis": "256GB ingebouwde HUF's 3.1 + LPDDR5\""
+  },
+  {
+    "source": "Snap crystal-clear photos and selfies in any light with a 64MP external camera and OIS—or a 32MP internal camera with Quad Pixel technology.",
+    "reference": "Maak kristalheldere foto's en selfies bij elk licht met een externe 64MP-camera en OIS of een interne 32MP-camera met Quad Pixel-technologie.",
+    "hypothesis": "Snap kristalheldere foto's en selfies in elk licht met een 64MP externe camera en OIS een 32MP interne camera met Quad Pixel technologie."
+  },
+  {
+    "source": "30W TurboPower™ charging support*sold separately5W wireless charging support*sold separately",
+    "reference": "Ondersteuning voor TurboPower™ laden met 30 W{1}*apart verkocht{2}Ondersteuning voor draadloos opladen met 5 W{3}*apart verkocht",
+    "hypothesis": "30W TurboPowerTM laadondersteuning* afzonderlijk verkocht5W draadloze laadondersteuning* afzonderlijk verkocht"
+  },
+  {
+    "source": "{1}Update window: From {2} to {3}",
+    "reference": "{1}Updateperiode: van {2} tot {3}",
+    "hypothesis": "{1}Venster bijwerken: van {2} naar {3}"
+  },
+  {
+    "source": "Or leave now and get a reminder.",
+    "reference": "Of sluit af en ontvangen een herinnering.",
+    "hypothesis": "Of vertrek nu en vraag om een herinnering."
+  },
+  {
+    "source": "I may unsubscribe to push notifications by selecting \"Unsubscribe\" in the notifications I receive.",
+    "reference": "Ik kan mijn abonnement op pushmeldingen opzeggen door Abonnement opzeggen te selecteren in de meldingen die ik ontvang.",
+    "hypothesis": "Ik kan me uitschrijven om meldingen te pushen door \"Abonnement opzeggen\" te selecteren in de meldingen die ik ontvang."
+  },
+  {
+    "source": "It will automatically recharge when the battery level is lower than 20%.",
+    "reference": "Het apparaat wordt automatisch opnieuw opgeladen wanneer het accupercentage lager is dan 20%.",
+    "hypothesis": "Het laadt automatisch op wanneer het batterijniveau lager is dan 20%."
+  },
+  {
+    "source": "Disconnected {1}",
+    "reference": "Verbinding verbroken {1}",
+    "hypothesis": "Verbinding verbroken {1}"
+  },
+  {
+    "source": "Increased contrast",
+    "reference": "Verhoogd contrast",
+    "hypothesis": "Toegenomen contrast"
+  },
+  {
+    "source": "However, you may not receive new messages from email, messaging, and social networking apps after they are closed.",
+    "reference": "Je ontvangt echter mogelijk geen nieuwe berichten van e-mail-, berichten- en sociale-netwerkapps nadat deze zijn gesloten.",
+    "hypothesis": "Het is echter mogelijk dat u geen nieuwe berichten ontvangt van e-mail, berichten en sociale netwerkapps nadat ze gesloten zijn."
+  },
+  {
+    "source": "(Remaining times:{1})",
+    "reference": "(Resterende pogingen: {1})",
+    "hypothesis": "(Behoudstijden:{1})"
+  },
+  {
+    "source": "Restricted by “Don't allow” setting",
+    "reference": "Beperkt door de instelling Niet toestaan",
+    "hypothesis": "Niet toegestaan door .."
+  },
+  {
+    "source": "Explore instant games to play without downloading",
+    "reference": "Ontdek hoe je games speelt zonder ze eerst te hoeven downloaden",
+    "hypothesis": "Verken instant games om te spelen zonder te downloaden"
+  },
+  {
+    "source": "Launch the trackpad to use gestures and air mouse.",
+    "reference": "Start het trackpad om gebaren en een airmuis te gebruiken.",
+    "hypothesis": "Start het trackpad om gebaren en luchtmuis te gebruiken."
+  },
+  {
+    "source": "Easily jump between Experience hub activities.",
+    "reference": "Schakel snel tussen Alle ervaringen-activiteiten.",
+    "hypothesis": "Gemakkelijk springen tussen Experience hub activiteiten."
+  },
+  {
+    "source": "Hold the Control key to start drag & drop",
+    "reference": "Houd de Control-toets ingedrukt om met slepen en neerzetten te starten",
+    "hypothesis": "Houd de controletoets ingedrukt om te beginnen met slepen en neerzetten"
+  },
+  {
+    "source": "This can't be undone, but you can connect again later",
+    "reference": "Dit kan niet ongedaan worden gemaakt, maar je kunt later opnieuw verbinding maken",
+    "hypothesis": "Dit kan niet ongedaan worden gemaakt, maar je kunt later weer verbinding maken"
+  },
+  {
+    "source": "Choose a default resolution for this display",
+    "reference": "Kies een standaardresolutie voor dit display",
+    "hypothesis": "Kies een standaardresolutie voor dit scherm"
+  },
+  {
+    "source": "Transfer open apps from your phone to your PC or tablet using a fling gesture",
+    "reference": "Breng open apps over van je telefoon naar je pc of tablet met een snelle veegbeweging",
+    "hypothesis": "Transfer open apps van uw telefoon naar uw pc of tablet met behulp van een fling gebaar"
+  },
+  {
+    "source": "Use display aspect ratio",
+    "reference": "Beeldverhouding gebruiken",
+    "hypothesis": "Beeldverhouding van weergave gebruiken"
+  },
+  {
+    "source": "When you're in an app, swipe up from the navigation bar until your finger reaches the Experience hub icon",
+    "reference": "Veeg in een app omhoog vanaf de navigatiebalk tot je vinger het pictogram Alle ervaringen bereikt",
+    "hypothesis": "Als je in een app zit, veeg dan omhoog van de navigatiebalk tot je vinger het Experience hub-icoon bereikt"
+  },
+  {
+    "source": "Scan to wirelessly connect your displays.",
+    "reference": "Scan om je displays draadloos aan te sluiten.",
+    "hypothesis": "Scan om uw displays draadloos aan te sluiten."
+  },
+  {
+    "source": "Or, connect by cable using an HDMI adapter or USB-C dock",
+    "reference": "Of sluit je displays via kabel aan met een HDMI- of USB-C-dock",
+    "hypothesis": "Of via kabel aansluiten met behulp van een HDMI-adapter of USB-C-dock"
+  },
+  {
+    "source": "When mirroring your phone, adjust the display ratio to reduce letterboxing and optimize viewing",
+    "reference": "Wanneer je je telefoon spiegelt, pas je de beeldverhouding aan om de letterboxing te verminderen en de weergave te optimaliseren",
+    "hypothesis": "Bij het spiegelen van uw telefoon, de weergaveverhouding aanpassen om letterboxen te verminderen en het bekijken te optimaliseren"
+  },
+  {
+    "source": "Instantly connect your phone to your favorite devices so you can stream, work, and share",
+    "reference": "Verbind je telefoon direct met je favoriete apparaten, zodat je kunt streamen, werken en delen",
+    "hypothesis": "Sluit direct uw telefoon aan op uw favoriete apparaten zodat u kunt streamen, werken en delen"
+  },
+  {
+    "source": "Flip open to continue.",
+    "reference": "Klap open om door te gaan.",
+    "hypothesis": "Draai open om verder te gaan."
+  },
+  {
+    "source": "The following devices are available on your Moto account.",
+    "reference": "De volgende apparaten zijn beschikbaar op je Moto-account.",
+    "hypothesis": "De volgende apparaten zijn beschikbaar op uw Moto-account."
+  },
+  {
+    "source": "This allows you to view movable content when you hover over an app",
+    "reference": "Hiermee kun je mobiele inhoud bekijken wanneer je met je muis over een app beweegt",
+    "hypothesis": "Hiermee kunt u roerende inhoud bekijken wanneer u over een app zweeft"
+  },
+  {
+    "source": "Opens the sidebar menu in games, TV, or video chat",
+    "reference": "Opent het menu in de zijbalk voor games, tv of videogesprekken",
+    "hypothesis": "Opent het zijbalkmenu in spellen, tv of videochat"
+  },
+  {
+    "source": "Stop Phone on PC",
+    "reference": "Telefoon op pc stoppen",
+    "hypothesis": "Stop telefoon op PC"
+  },
+  {
+    "source": "You're logged in with your Moto account",
+    "reference": "Je bent ingelogd met je Moto-account",
+    "hypothesis": "U bent ingelogd met uw Moto-account"
+  },
+  {
+    "source": "Manage your displays",
+    "reference": "Je displays beheren",
+    "hypothesis": "Uw displays beheren"
+  },
+  {
+    "source": "To share files, make sure your Ready For device is open and visible to Bluetooth",
+    "reference": "Om bestanden te delen, moet je Ready For-apparaat geopend zijn en zichtbaar voor Bluetooth",
+    "hypothesis": "Om bestanden te delen, zorg ervoor dat uw Ready For-apparaat geopend en zichtbaar is voor Bluetooth"
+  },
+  {
+    "source": "Have a Moto account?",
+    "reference": "Heb je een Moto-account?",
+    "hypothesis": "Heb je een Moto account?"
+  },
+  {
+    "source": "Then, drag your text, images, and files over to your PC",
+    "reference": "Sleep vervolgens je tekst, afbeeldingen en bestanden naar je pc",
+    "hypothesis": "Sleep dan uw tekst, afbeeldingen en bestanden naar uw PC"
+  },
+  {
+    "source": "Start Mirror phone or Virtual phone",
+    "reference": "Spiegeltelefoon of Virtuele telefoon starten",
+    "hypothesis": "Spiegeltelefoon of virtuele telefoon starten"
+  },
+  {
+    "source": "Swipe up, down, left, or right to scroll through the screen",
+    "reference": "Naar boven, beneden, links of rechts vegen om door het scherm te bladeren",
+    "hypothesis": "Veeg omhoog, omlaag, links of rechts om door het scherm te scrollen"
+  },
+  {
+    "source": "You've successfully logged into your Moto account",
+    "reference": "Je hebt je met succes aangemeld bij je Moto-account",
+    "hypothesis": "U bent succesvol ingelogd in uw Moto-account"
+  },
+  {
+    "source": "Nearby device permission",
+    "reference": "Toestemming voor apparaten dichtbij",
+    "hypothesis": "Toestemming voor apparaten in de buurt"
+  },
+  {
+    "source": "This widget needs permission to connect to nearby devices.",
+    "reference": "Deze widget heeft toestemming nodig om verbinding te maken met apparaten dichtbij.",
+    "hypothesis": "Dit widget heeft toestemming nodig om verbinding te maken met nabijgelegen apparaten."
+  },
+  {
+    "source": "Go to Settings, choose Permissions, and then allow “Connect to nearby devices.“",
+    "reference": "Ga naar Instellingen, kies Machtigingen en schakel vervolgens 'Verbinding maken met apparaten dichtbij' in.",
+    "hypothesis": "Ga naar Instellingen, kies Permissies, en laat vervolgens ..Verbinden met nabijgelegen apparaten."
+  },
+  {
+    "source": "Move or copy files from inside Secure folder too outside locations",
+    "reference": "Verplaats of kopieer bestanden van binnen de beveiligde map naar locaties buiten de map",
+    "hypothesis": "Bestanden verplaatsen of kopiëren vanuit Beveiligde map ook buiten locaties"
+  },
+  {
+    "source": "Move or copy outside files to inside your secure folder",
+    "reference": "Verplaats of kopieer externe bestanden naar je beveiligde map",
+    "hypothesis": "Verplaats of kopieer bestanden naar buiten in uw beveiligde map"
+  },
+  {
+    "source": "Make your secure folder invisible by removing the Secure folder app icon from your home screen & app tray or within Moto Secure app settings",
+    "reference": "Maak je beveiligde map onzichtbaar door het app-pictogram voor de beveiligde map te verwijderen uit je startscherm en het appoverzicht, of in de app-instellingen van je Moto Secure",
+    "hypothesis": "Maak uw beveiligde map onzichtbaar door het pictogram van de beveiligde map uit uw startscherm & app tray of binnen Moto Secure app instellingen te verwijderen"
+  },
+  {
+    "source": "If trusted devices/trusted places are set and Auto lock or Two-factor authentication is ON, all data will be cleared and both will be set to off",
+    "reference": "Als vertrouwde apparaten/vertrouwde locaties zijn ingesteld en Auto lock of Tweestapsverificatie is ingesteld op AAN, worden alle gegevens gewist en worden beide ingesteld op Uit",
+    "hypothesis": "Als vertrouwde apparaten/vertrouwde plaatsen zijn ingesteld en Autolock of Two-factor authenticatie is ingeschakeld, zullen alle gegevens worden gewist en zullen beide worden uitgeschakeld"
+  },
+  {
+    "source": "Get alerts when a family member enters or exits this saved location.",
+    "reference": "Ontvang meldingen wanneer een gezinslid deze opgeslagen locatie opent of verlaat.",
+    "hypothesis": "Ontvang waarschuwingen wanneer een familielid deze opgeslagen locatie binnenkomt of verlaat."
+  },
+  {
+    "source": "Note: To ensure a high level of device security, every 72 hours you will be asked to unlock your device using another authentication method after which you can use Face unlock again.",
+    "reference": "Opmerking: om voor een hoog niveau van apparaatbeveiliging te zorgen, word je iedere 72 uur gevraagd je apparaat te ontgrendelen met een andere verificatiemethode waarna je Ontgrendelen via gezichtsherkenning weer kunt gebruiken.",
+    "hypothesis": "Opmerking: Om een hoog niveau van apparaatbeveiliging te garanderen, wordt u om de 72 uur gevraagd om uw apparaat te ontgrendelen met behulp van een andere authenticatiemethode waarna u Face unlock opnieuw kunt gebruiken."
+  },
+  {
+    "source": "Press & hold on home screen to see themes, fonts, and more",
+    "reference": "Houd het startscherm ingedrukt om thema's, lettertypen en meer te bekijken",
+    "hypothesis": "Druk op & houden op het startscherm om thema's, lettertypen en meer te zien"
+  },
+  {
+    "source": "Mototalk puts superior productivity within your business’s reach.",
+    "reference": "Mototalk brengt superieure productiviteit binnen handbereik voor je bedrijf.",
+    "hypothesis": "Mototalk plaatst superieure productiviteit binnen uw zakelijke bereik."
+  },
+  {
+    "source": "To get full-fledged access to Mototalk features, you can subscribe at: https://mototalk.com.",
+    "reference": "Als je volledige toegang wilt krijgen tot Mototalk-functies, kun je je abonneren op https://mototalk.com.",
+    "hypothesis": "Om volledige toegang tot Mototalk-functies te krijgen, kunt u zich abonneren op: https://mototalk.com."
+  },
+  {
+    "source": "Leave behind common radios and transform your team smartphones into true walkie-talkies (PTT) with powerful messenger and communication features.",
+    "reference": "Laat standaardportofoons achterwege en transformeer de smartphones van je team in echte walkietalkies (PTT) met krachtige bericht- en communcatiefuncties.",
+    "hypothesis": "Laat gewone radio's achter en transformeer uw team smartphones tot echte walkietalkies (PTT) met krachtige messenger- en communicatiefuncties."
+  },
+  {
+    "source": "- PPT (Push-To-Talk): Fast communication with your team including individual calls, group calls, and call recording- Messenger: text and voice notes- Share contacts, images, files, and locations- Send and receive alertsPRODUCTIVITY- Track location: Monitor your external teams in real-time- Workday: Organize and keep track of your staff working hours and job journeys (start/end) by location, photos, and time- Define employee goals - Plan and track your team tasks.",
+    "reference": "- PPT (Push-To-Talk): snelle communicatie met je team, waaronder individuele oproepen, groepsgesprekken en het opnemen van oproepen- Messenger: tekst- en spraakberichten- Contacten, afbeeldingen, bestanden en locaties delen- PRODUCTIVITEIT- Locatie volgen: volg je externe teams in realtime - Werkdag: houd de werkuren en de reizen van je personeel (begin/eind) bij op basis van locatie, foto's en tijd- Stel werknemersdoelen in - Plan en volg de taken van je team.",
+    "hypothesis": "- PPT (Push-To-Talk): Snelle communicatie met uw team met inbegrip van individuele oproepen, groepsgesprekken, en gesprek opnemen- Messenger: tekst en voice notes- Delen van contacten, afbeeldingen, bestanden en locaties- Verzenden en ontvangen van waarschuwingenPRODUCTIVITY- Track locatie: Monitor uw externe teams in real-time- Werkdag: Organiseer en houd bijhouden van uw personeel werktijden en job reizen (start/end) door locatie, foto's, en tijd- Definieer werknemer doelen - Plan en volg uw team"
+  },
+  {
+    "source": "Maintain a clear vision of your team goals and activities including execution time, period time control, prioritization of tasks, and more- Create surveys and send them to employees when they complete designated tasks- Generate reports related to survey responses- Create training sessions for your employeesRequires a data connection 3G/4G/5G or Wi-Fi access",
+    "reference": "Houd een duidelijk beeld van je teamdoelstellingen en activiteiten zoals uitvoeringstijd, periodieke tijdcontrole, prioriteitstelling van taken en meer- Maak enquêtes en stuur deze naar medewerkers wanneer ze de aangegeven taken hebben voltooid- Genereer enquêtegerelateerde rapporten- Maak trainingssessies voor je medewerkersVereist een gegevensverbinding met 3G/4G/5G of wifi-toegang",
+    "hypothesis": "Houd een duidelijke visie op uw team doelen en activiteiten, waaronder uitvoeringstijd, periodecontrole, prioritering van taken, en meer- Maak onderzoeken en stuur ze naar werknemers wanneer ze de aangewezen taken- Genereer rapporten met betrekking tot enquête antwoorden- Creëer trainingssessies voor uw medewerkersVereist een dataverbinding 3G/4G/5G of Wi-Fi toegang"
+  },
+  {
+    "source": "New PTT button experience",
+    "reference": "Nieuwe PTT-knop",
+    "hypothesis": "Nieuwe PTT-knop ervaring"
+  },
+  {
+    "source": "Training productivity module is available for enrollment",
+    "reference": "De trainingsproductiviteitmodule is beschikbaar voor registratie",
+    "hypothesis": "Training productiviteitsmodule is beschikbaar voor inschrijving"
+  },
+  {
+    "source": "Battery usage permission has a disclaimer",
+    "reference": "Toestemming voor accugebruik heeft een disclaimer",
+    "hypothesis": "Toestemming voor batterijgebruik heeft een disclaimer"
+  },
+  {
+    "source": "Bug fixes and stability improvements",
+    "reference": "Stabiliteitsverbeteringen en oplossingen voor problemen",
+    "hypothesis": "Bugfixes en stabiliteitsverbeteringen"
+  },
+  {
+    "source": "Motorola enterprise mobility management (EMM) solution.",
+    "reference": "Enterprise Mobility Management-oplossing (EMM) van Motorola.",
+    "hypothesis": "Motorola enterprise mobility management (EMM) oplossing."
+  },
+  {
+    "source": "This app facilitates policy distribution.",
+    "reference": "Deze app faciliteert beleidsdistributie.",
+    "hypothesis": "Deze app vergemakkelijkt de beleidsdistributie."
+  },
+  {
+    "source": "Not possible to send PTT while recording a voice note.",
+    "reference": "Het is niet mogelijk om PTT te verzenden tijdens het opnemen van een spraakbericht.",
+    "hypothesis": "Het is niet mogelijk PTT te versturen tijdens het opnemen van een voice note."
+  },
+  {
+    "source": "This employee is authorized to create and manage customization policy templates and apply them to devices",
+    "reference": "Deze medewerker is bevoegd aangepaste beleidssjablonen te maken en beheren, en deze toe te passen op apparaten",
+    "hypothesis": "Deze werknemer is bevoegd om maatwerk beleid sjablonen te maken en te beheren en deze toe te passen op apparaten"
+  },
+  {
+    "source": "The phone will enter battery saver mode when the cover is closed.",
+    "reference": "De telefoon schakelt over naar de energiebesparingsmodus als de klep wordt gesloten.",
+    "hypothesis": "De telefoon voert de modus batterijbeveiliging in wanneer de hoes gesloten is."
+  },
+  {
+    "source": "Battery saver mode will be temporarily turned off when the cover is open or the external display is used.",
+    "reference": "De energiebesparingsmodus wordt tijdelijk uitgeschakeld als de klep wordt geopend of het externe display wordt gebruikt.",
+    "hypothesis": "De batterijsavermodus wordt tijdelijk uitgeschakeld wanneer de deksel open is of het externe display wordt gebruikt."
+  },
+  {
+    "source": "Enter it below to verify your account.",
+    "reference": "Voer deze hieronder in om je account te verifiëren.",
+    "hypothesis": "Voer het hieronder in om uw account te verifiëren."
+  },
+  {
+    "source": "No personal information will be stored.",
+    "reference": "Persoonsgegevens worden niet opgeslagen.",
+    "hypothesis": "Er worden geen persoonlijke gegevens opgeslagen."
+  },
+  {
+    "source": "Please ensure that the Accessibility shortcut is disabled so it doesn't conflict with screen blockers.",
+    "reference": "Zorg ervoor dat de snelkoppeling voor Toegankelijkheid is uitgeschakeld, zodat deze niet in strijd is met schermblokkeringen.",
+    "hypothesis": "Zorg ervoor dat de snelkoppeling Toegankelijkheid is uitgeschakeld, zodat het niet in conflict komt met schermblokkers."
+  },
+  {
+    "source": "Remove Weather from home screen",
+    "reference": "Weer verwijderen van het startscherm",
+    "hypothesis": "Het weer uit het startscherm verwijderen"
+  },
+  {
+    "source": "Display time for two locations",
+    "reference": "Tijd voor twee locaties weergeven",
+    "hypothesis": "Tijd tonen voor twee locaties"
+  },
+  {
+    "source": "With Family Space Premium, you can add unlimited family members.",
+    "reference": "Met Family Space Premium kun je een onbeperkt aantal gezinsleden toevoegen.",
+    "hypothesis": "Met Family Space Premium kunt u onbeperkt familieleden toevoegen."
+  },
+  {
+    "source": "Go premium",
+    "reference": "Kies voor premium",
+    "hypothesis": "Ga premium"
+  },
+  {
+    "source": "Want to have more features?",
+    "reference": "Wil je meer functies?",
+    "hypothesis": "Wilt u meer functies hebben?"
+  },
+  {
+    "source": "{1}/mo, save {2}%%",
+    "reference": "{1} per maand, bespaar {2}%%",
+    "hypothesis": "{1}/mo, bewaar {2}%%"
+  },
+  {
+    "source": "Family space allows you to have only {1} people in you family account for free.",
+    "reference": "In Family Space kun je slechts {1} personen gratis aan je gezinsaccount toevoegen.",
+    "hypothesis": "Familieruimte stelt u in staat om alleen {1} mensen in uw familieaccount gratis te hebben."
+  },
+  {
+    "source": "Upgrade to Premium to add unlimited family members.",
+    "reference": "Upgrade naar Premium om een onbeperkt aantal gezinsleden toe te voegen.",
+    "hypothesis": "Upgrade naar Premium om onbeperkt familieleden toe te voegen."
+  },
+  {
+    "source": "Ask owner to upgrade to Premium to add unlimited family members.",
+    "reference": "Vraag de eigenaar om een upgrade naar Premium uit te voeren om een onbeperkt aantal gezinsleden toe te voegen.",
+    "hypothesis": "Vraag eigenaar om te upgraden naar Premium om onbeperkt familieleden toe te voegen."
+  },
+  {
+    "source": "Plan comparison",
+    "reference": "Vergelijking van abonnementen",
+    "hypothesis": "Vergelijking van het plan"
+  },
+  {
+    "source": "This is your current plan",
+    "reference": "Dit is je huidige abonnement",
+    "hypothesis": "Dit is je huidige plan."
+  },
+  {
+    "source": "Features downgraded, Subscription Cancel WIP",
+    "reference": "Functies gedowngraded, abonnement annuleren wordt aan gewerkt",
+    "hypothesis": "Functies gedowngraded, Abonnement WIP annuleren"
+  },
+  {
+    "source": "Display lets you optimize how you interact with the screen.",
+    "reference": "Met Display kun je de manier waarop je met het scherm werkt optimaliseren.",
+    "hypothesis": "Met display kunt u optimaliseren hoe u interageert met het scherm."
+  },
+  {
+    "source": "When using the Verizon Wireless network, the voice portion of a video call will appear on your bill as mobile-to-mobile voice usage, and the video portion will be billed as data.",
+    "reference": "Bij gebruik van het Verizon Wireless-netwerk wordt het spraakgedeelte van een videogesprek op je factuur weergegeven als spraakgesprek van mobiel naar mobiel en wordt het videogedeelte gefactureerd als gegevens.",
+    "hypothesis": "Bij het gebruik van het Verizon Wireless netwerk verschijnt het spraakgedeelte van een videogesprek op uw rekening als mobiel-naar-mobiel spraakgebruik, en het videogedeelte wordt gefactureerd als gegevens."
+  },
+  {
+    "source": "You can try to add a voice call.",
+    "reference": "Je kunt proberen een spraakoproep toe te voegen.",
+    "hypothesis": "Je kunt proberen een telefoontje toe te voegen."
+  },
+  {
+    "source": "Your app tray can now search your apps, and recommend apps and shortcuts.",
+    "reference": "Je appoverzicht kan nu apps zoeken en apps en snelkoppelingen aanbevelen.",
+    "hypothesis": "Uw app tray kan nu uw apps doorzoeken en apps en snelkoppelingen aanbevelen."
+  },
+  {
+    "source": "To do this Branch will access & analyze your{1} device identifiers and app usage.",
+    "reference": "Om dit te kunnen doen, bekijkt en analyseert Branch je{1} apparaat-id's en appgebruik.",
+    "hypothesis": "Om dit te doen zal Branch toegang krijgen tot uw{1} apparaatidentificaties en app-gebruik & analyseren."
+  },
+  {
+    "source": "You can turn off{1} this enhanced personalization in App Tray settings.",
+    "reference": "Je kunt deze verbeterde personalisatie uitschakelen{1} in de instellingen van het appoverzicht.",
+    "hypothesis": "U kunt deze verbeterde personalisatie uitschakelen{1} in App Tray-instellingen."
+  }
+]

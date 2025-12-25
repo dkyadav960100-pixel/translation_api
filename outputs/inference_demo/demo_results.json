@@ -1,0 +1,112 @@
+{
+  "model": "Helsinki-NLP/opus-mt-en-nl",
+  "dataset": "software_domain",
+  "num_samples": 20,
+  "metrics": {
+    "bleu": 33.46560403851551,
+    "chrf": 59.344455497642954,
+    "ter": 51.85185185185185
+  },
+  "translations": [
+    {
+      "source": "256GB built-inUFS 3.1 + LPDDR5\"",
+      "reference": "256 GB ingebouwdUFS 3.1 + LPDDR5",
+      "hypothesis": "256GB ingebouwde HUF's 3.1 + LPDDR5\""
+    },
+    {
+      "source": "Snap crystal-clear photos and selfies in any light with a 64MP external camera and OIS—or a 32MP internal camera with Quad Pixel technology.",
+      "reference": "Maak kristalheldere foto's en selfies bij elk licht met een externe 64MP-camera en OIS of een interne 32MP-camera met Quad Pixel-technologie.",
+      "hypothesis": "Snap kristalheldere foto's en selfies in elk licht met een 64MP externe camera en OIS een 32MP interne camera met Quad Pixel technologie."
+    },
+    {
+      "source": "30W TurboPower™ charging support*sold separately5W wireless charging support*sold separately",
+      "reference": "Ondersteuning voor TurboPower™ laden met 30 W{1}*apart verkocht{2}Ondersteuning voor draadloos opladen met 5 W{3}*apart verkocht",
+      "hypothesis": "30W TurboPowerTM laadondersteuning* afzonderlijk verkocht5W draadloze laadondersteuning* afzonderlijk verkocht"
+    },
+    {
+      "source": "{1}Update window: From {2} to {3}",
+      "reference": "{1}Updateperiode: van {2} tot {3}",
+      "hypothesis": "{1}Venster bijwerken: van {2} naar {3}"
+    },
+    {
+      "source": "Or leave now and get a reminder.",
+      "reference": "Of sluit af en ontvangen een herinnering.",
+      "hypothesis": "Of vertrek nu en vraag om een herinnering."
+    },
+    {
+      "source": "I may unsubscribe to push notifications by selecting \"Unsubscribe\" in the notifications I receive.",
+      "reference": "Ik kan mijn abonnement op pushmeldingen opzeggen door Abonnement opzeggen te selecteren in de meldingen die ik ontvang.",
+      "hypothesis": "Ik kan me uitschrijven om meldingen te pushen door \"Abonnement opzeggen\" te selecteren in de meldingen die ik ontvang."
+    },
+    {
+      "source": "It will automatically recharge when the battery level is lower than 20%.",
+      "reference": "Het apparaat wordt automatisch opnieuw opgeladen wanneer het accupercentage lager is dan 20%.",
+      "hypothesis": "Het laadt automatisch op wanneer het batterijniveau lager is dan 20%."
+    },
+    {
+      "source": "Disconnected {1}",
+      "reference": "Verbinding verbroken {1}",
+      "hypothesis": "Verbinding verbroken {1}"
+    },
+    {
+      "source": "Increased contrast",
+      "reference": "Verhoogd contrast",
+      "hypothesis": "Verhoogd contrast"
+    },
+    {
+      "source": "However, you may not receive new messages from email, messaging, and social networking apps after they are closed.",
+      "reference": "Je ontvangt echter mogelijk geen nieuwe berichten van e-mail-, berichten- en sociale-netwerkapps nadat deze zijn gesloten.",
+      "hypothesis": "Het is echter mogelijk dat u geen nieuwe berichten ontvangt van e-mail, berichten en sociale netwerkapps nadat ze gesloten zijn."
+    },
+    {
+      "source": "(Remaining times:{1})",
+      "reference": "(Resterende pogingen: {1})",
+      "hypothesis": "(Behoudstijden:{1})"
+    },
+    {
+      "source": "Restricted by “Don't allow” setting",
+      "reference": "Beperkt door de instelling Niet toestaan",
+      "hypothesis": "Uitgesloten door ..Laat de instelling van ..niet toe"
+    },
+    {
+      "source": "Explore instant games to play without downloading",
+      "reference": "Ontdek hoe je games speelt zonder ze eerst te hoeven downloaden",
+      "hypothesis": "Verken instant games om te spelen zonder te downloaden"
+    },
+    {
+      "source": "Launch the trackpad to use gestures and air mouse.",
+      "reference": "Start het trackpad om gebaren en een airmuis te gebruiken.",
+      "hypothesis": "Start het trackpad om gebaren en luchtmuis te gebruiken."
+    },
+    {
+      "source": "Easily jump between Experience hub activities.",
+      "reference": "Schakel snel tussen Alle ervaringen-activiteiten.",
+      "hypothesis": "Gemakkelijk springen tussen Experience hub activiteiten."
+    },
+    {
+      "source": "Hold the Control key to start drag & drop",
+      "reference": "Houd de Control-toets ingedrukt om met slepen en neerzetten te starten",
+      "hypothesis": "Houd de controletoets ingedrukt om te beginnen met slepen en neerzetten"
+    },
+    {
+      "source": "This can't be undone, but you can connect again later",
+      "reference": "Dit kan niet ongedaan worden gemaakt, maar je kunt later opnieuw verbinding maken",
+      "hypothesis": "Dit kan niet ongedaan worden gemaakt, maar je kunt later weer verbinding maken"
+    },
+    {
+      "source": "Choose a default resolution for this display",
+      "reference": "Kies een standaardresolutie voor dit display",
+      "hypothesis": "Kies een standaardresolutie voor dit scherm"
+    },
+    {
+      "source": "Transfer open apps from your phone to your PC or tablet using a fling gesture",
+      "reference": "Breng open apps over van je telefoon naar je pc of tablet met een snelle veegbeweging",
+      "hypothesis": "Transfer open apps van uw telefoon naar uw pc of tablet met behulp van een fling gebaar"
+    },
+    {
+      "source": "Use display aspect ratio",
+      "reference": "Beeldverhouding gebruiken",
+      "hypothesis": "Beeldverhouding van weergave gebruiken"
+    }
+  ]
+}

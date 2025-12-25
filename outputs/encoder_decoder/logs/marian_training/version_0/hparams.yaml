@@ -1,0 +1,5 @@
+learning_rate: 2.0e-05
+model_name: Helsinki-NLP/opus-mt-en-nl
+num_training_steps: 1250
+warmup_steps: 500
+weight_decay: 0.01

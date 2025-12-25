@@ -1,0 +1,78 @@
+============================================================
+MOTOROLA MT ASSIGNMENT - EVALUATION REPORT
+============================================================
+Date: 2025-12-25
+Model: Helsinki-NLP/opus-mt-en-nl (MarianMT Baseline)
+Test Set: Software Domain (84 samples)
+============================================================
+
+BASELINE RESULTS (Pre-trained Model - No Fine-tuning)
+------------------------------------------------------------
+
+| Metric | Score | Description |
+|--------|-------|-------------|
+| BLEU   | 30.31 | N-gram precision (higher=better) |
+| chrF++ | 59.50 | Character F-score (higher=better) |
+| TER    | 52.20 | Edit distance (lower=better) |
+
+BLEU Breakdown:
+- Brevity Penalty: 0.984
+- 1-gram precision: 63.84%
+- 2-gram precision: 38.07%
+- 3-gram precision: 24.19%
+- 4-gram precision: 15.33%
+
+------------------------------------------------------------
+SYSTEM CONSTRAINTS
+------------------------------------------------------------
+- Available RAM: 2.8 GB
+- GPU: None (CPU only)
+- Training Status: BLOCKED (OOM - Out of Memory)
+
+⚠️ Training requires GPU with 8GB+ VRAM for optimal results.
+   Expected improvement with fine-tuning: +5-10 BLEU points.
+
+------------------------------------------------------------
+EXPECTED RESULTS AFTER GPU TRAINING
+------------------------------------------------------------
+
+| Model | BLEU (Expected) | chrF++ (Expected) |
+|-------|-----------------|-------------------|
+| MarianMT Fine-tuned | 35-40 | 65-70 |
+| Decoder-Only + LoRA | 32-38 | 62-68 |
+
+------------------------------------------------------------
+KEY OBSERVATIONS
+------------------------------------------------------------
+
+1. STRENGTHS:
+   - Good handling of general vocabulary
+   - Preserves sentence structure
+   - Technical terms partially handled
+
+2. WEAKNESSES (Needs Fine-tuning):
+   - Placeholder handling ({1}, {2}, etc.)
+   - Software-specific terminology
+   - Brand names (TurboPower™ → TurboPowerTM)
+
+3. SAMPLE ERRORS:
+   Source: "(Remaining times:{1})"
+   Reference: "(Resterende pogingen: {1})"
+   Model: "(Behoudstijden:{1})" ← Wrong translation
+
+   Source: "Restricted by "Don't allow" setting"
+   Reference: "Beperkt door de instelling Niet toestaan"
+   Model: "Uitgesloten door ..Laat de instelling van ..niet toe" ← Garbled
+
+------------------------------------------------------------
+FILES GENERATED
+------------------------------------------------------------
+- outputs/evaluation/baseline/evaluation_results.json
+- outputs/evaluation/baseline/software_translations.json
+- outputs/inference_demo/demo_results.json
+- logs/inference_demo.log
+- logs/evaluation_baseline.log
+
+============================================================
+END OF REPORT
+============================================================
