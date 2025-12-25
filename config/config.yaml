@@ -1,0 +1,139 @@
+# Main Configuration for Motorola MT Challenge
+# =============================================
+
+project:
+  name: "motorola-mt-challenge"
+  description: "Domain-Specific Machine Translation Fine-tuning"
+  version: "1.0.0"
+
+# Data Configuration
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  features_dir: "data/features"
+  
+  # Challenge 1 Dataset
+  challenge1:
+    source_file: "Dataset_Challenge_1.xlsx"
+    source_lang: "en"
+    target_lang: "nl"
+    source_col: "English Source"
+    target_col: "Reference Translation"
+  
+  # External Datasets
+  wmt16:
+    url: "https://www.statmt.org/wmt16/it-translation-task.html"
+    domain: "software"
+  
+  flores:
+    dataset: "facebook/flores"
+    split: "devtest"
+    source_lang: "eng_Latn"
+    target_lang: "nld_Latn"
+
+# Model Configuration
+models:
+  encoder_decoder:
+    name: "Helsinki-NLP/opus-mt-en-nl"
+    type: "marian"
+    max_length: 256
+    num_beams: 4
+    
+  decoder_only:
+    name: "meta-llama/Llama-2-7b-hf"
+    type: "causal_lm"
+    max_length: 512
+    lora:
+      r: 16
+      alpha: 32
+      dropout: 0.1
+      target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+    quantization:
+      load_in_4bit: true
+      bnb_4bit_compute_dtype: "float16"
+      bnb_4bit_quant_type: "nf4"
+      
+  quality_estimation:
+    name: "Unbabel/wmt22-cometkiwi-da"
+    type: "comet-qe"
+
+# Training Configuration
+training:
+  encoder_decoder:
+    epochs: 10
+    batch_size: 8
+    learning_rate: 5e-5
+    warmup_steps: 500
+    weight_decay: 0.01
+    gradient_accumulation_steps: 4
+    fp16: true
+    
+  decoder_only:
+    epochs: 5
+    batch_size: 2
+    learning_rate: 2e-4
+    warmup_ratio: 0.03
+    gradient_accumulation_steps: 8
+    fp16: true
+
+# Evaluation Configuration  
+evaluation:
+  metrics:
+    - bleu
+    - chrf
+    - comet
+    - ter
+  
+  flores_devtest:
+    enabled: true
+    n_samples: 1012
+    
+  domain_test:
+    enabled: true
+    file: "Dataset_Challenge_1.xlsx"
+
+# Hardware Configuration
+hardware:
+  device: "cuda"  # or "cpu"
+  num_workers: 4
+  pin_memory: true
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_dir: "outputs/logs"
+  wandb:
+    enabled: false
+    project: "motorola-mt"
+    
+# Output Configuration
+output:
+  model_dir: "outputs/models"
+  results_dir: "outputs/results"
+  checkpoints_dir: "outputs/checkpoints"
+
+# Edge Case Handling
+edge_cases:
+  # Placeholder patterns to preserve
+  placeholder_patterns:
+    - "\\{\\d+\\}"           # {1}, {2}, etc.
+    - "\\{[^}]+\\}"          # {variable}
+    - "%[sd%]"               # %s, %d, %%
+    - "\\$\\{[^}]+\\}"       # ${variable}
+    
+  # Technical term handling
+  preserve_terms:
+    - "TurboPower™"
+    - "USB-C"
+    - "HDMI"
+    - "Bluetooth"
+    - "Wi-Fi"
+    - "PTT"
+    - "LPDDR5"
+    - "UFS"
+    
+  # Fallback configuration
+  fallback:
+    empty_input: "Translation unavailable"
+    max_retries: 3
+    timeout_seconds: 30
