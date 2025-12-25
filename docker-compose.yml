@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  # Inference Demo (CPU - works on any machine)
+  inference:
+    build: .
+    container_name: motorola-mt-inference
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: python scripts/inference_demo.py
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  # Evaluation (CPU - works on any machine)
+  evaluate:
+    build: .
+    container_name: motorola-mt-evaluate
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: python scripts/evaluate_model.py --no_flores
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  # Full Training (GPU Required)
+  train-encoder:
+    build: .
+    container_name: motorola-mt-train-encoder
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: >
+      python scripts/train_marian.py 
+      --epochs 3 
+      --batch_size 16 
+      --learning_rate 2e-5
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CUDA_VISIBLE_DEVICES=0
+
+  # Decoder-Only Training with LoRA (GPU Required)
+  train-decoder:
+    build: .
+    container_name: motorola-mt-train-decoder
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: >
+      python scripts/train_decoder_only.py 
+      --use_lora 
+      --epochs 3 
+      --batch_size 4
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CUDA_VISIBLE_DEVICES=0
+
+  # Full Pipeline (GPU Required)
+  full-pipeline:
+    build: .
+    container_name: motorola-mt-full
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: bash scripts/run_pipeline.sh
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CUDA_VISIBLE_DEVICES=0
