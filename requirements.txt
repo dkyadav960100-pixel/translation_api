@@ -1,0 +1,60 @@
+# Core ML Libraries
+torch>=2.0.0
+transformers>=4.36.0
+tokenizers>=0.15.0
+datasets>=2.16.0
+accelerate>=0.25.0
+
+# PyTorch Lightning
+pytorch-lightning>=2.1.0
+lightning>=2.1.0
+
+# PEFT/LoRA for efficient fine-tuning
+peft>=0.7.0
+bitsandbytes>=0.41.0
+
+# Evaluation Metrics
+sacrebleu>=2.4.0
+unbabel-comet>=2.2.0
+evaluate>=0.4.0
+bert-score>=0.3.13
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# NLP Utilities
+sentencepiece>=0.1.99
+nltk>=3.8.0
+spacy>=3.7.0
+langdetect>=1.0.9
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+wordcloud>=1.9.0
+
+# Configuration & Logging
+pyyaml>=6.0.0
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+wandb>=0.16.0
+tensorboard>=2.15.0
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.0.0
+python-dotenv>=1.0.0
+click>=8.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.28.0
+ipywidgets>=8.1.0
