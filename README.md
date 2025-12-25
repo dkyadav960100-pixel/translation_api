@@ -181,10 +181,3 @@ docker run -v $(pwd)/outputs:/app/outputs motorola-mt:latest \
 
 ---
 
-## 👤 Author
-
-Motorola Senior AI/ML Engineer Assessment
-
-## 📄 License
-
-For assessment purposes only.
